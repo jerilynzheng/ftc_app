@@ -23,8 +23,8 @@ public class SampleTeleOp extends OpMode {
     public static final int B_SPEED = -1;
     public static final int STOP = 0;
 
-    public DcMotor leftMotor;
-    public DcMotor rightMotor;
+    private DcMotor leftMotor;
+    private DcMotor rightMotor;
 
     /**
      *  Put the code you want the robot to run only once at the beginning of the program here.
