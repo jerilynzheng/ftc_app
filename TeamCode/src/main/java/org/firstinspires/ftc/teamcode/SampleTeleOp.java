@@ -30,6 +30,7 @@ public class SampleTeleOp extends OpMode {
      *  Put the code you want the robot to run only once at the beginning of the program here.
      *  Generally, things like motor initialization happen here.
      */
+    @Override
     public void init(){
 
         leftMotor = hardwareMap.dcMotor.get("motor1"); //sets the left motor to the first motor in the hardware map
@@ -41,6 +42,7 @@ public class SampleTeleOp extends OpMode {
      *  Put the code you want running over and over again until you terminate it here.
      *  Generally, things like checking for input or running the motors happen here.
      */
+    @Override
     public void loop(){
 
         double leftSpeed = STOP;
