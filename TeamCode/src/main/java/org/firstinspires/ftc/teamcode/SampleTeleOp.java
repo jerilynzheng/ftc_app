@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 /**
  * Created by tchan17 on 10/11/16.
@@ -16,7 +17,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
  * D-pad Right: In-place right turn
  *
  */
-
+@TeleOp
 public class SampleTeleOp extends OpMode {
 
     public static final int D_SPEED = 1;
